@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #27374D;
+    padding: 0 6.25rem;
+    font-family: 'Poppins';
+}
+html {
+    scroll-behavior: smooth;
+}
+.Me {
+    border-radius: 81% 19% 66% 34% / 30% 46% 54% 70% ;
+}
+.my-img {
+    border-radius: 22% 78% 39% 61% / 49% 26% 74% 51% ;
+    transition: 0.3s;
+}
+.my-img:hover {
+    transform: scale(1.1);
+}
+.container-lang {
+    transition: 0.3s;
+}
+.container-lang:hover {
+    transform: translate(0, -5px);
+    cursor: pointer;
+}
+.langs {
+    transition: 0.3s;
+}
+.langs:hover {
+    transform: translate(0, -5px);
+    cursor: pointer;
+}
