@@ -8,9 +8,9 @@ import '../index.css'
 
 function About() {
   return (
-    <div className="container h-screen mb-20">
+    <div className="container h-screen">
         <SectionTitle title = 'About Me'/>
-        <div className="div flex justify-between">
+        <div className="div flex justify-between items-center">
             <div className="first w-[50%]">
                 <div className="about-me">
                 <p className='text-fonts text-based font-regular leading-7 mb-4'>The name is Jhon Eric Dormido Aton. Currently studying at the University of Rizal System taking Bachelor of Science in Information Technology. </p>
