@@ -3,7 +3,7 @@ import URSBLibrary from '../assets/URSB Library.png'
 import Mellontikos from '../assets/Mellontikos Website.png'
 import Button from './Button'
 import Languages from './Languages'
-
+import '../index.css'
 function ProjectList() {
 
     const btnText = "Source"
@@ -11,7 +11,7 @@ function ProjectList() {
   return (
     <div className="container">
         <div className="project flex justify-between mb-40">
-            <div className="first flex flex-col w-[60%] ">
+            <div className="first flex flex-col w-[40%] ">
                 <h1 className='text-xl text-fonts font-bold mb-4'>University of Rizal System Library Management</h1>
                 <div className="languages flex mb-10">
                     <Languages lang = 'CSharp'/>
@@ -25,11 +25,11 @@ function ProjectList() {
                 </div>
             </div>
             <div className="second flex items-center justify-center w-[30%]">
-                <img className='rounded w-[20rem] h-[12rem]'src={URSBLibrary} alt="" />
+                <img className=' proj-img rounded w-[20rem] h-[12rem]'src={URSBLibrary} alt="" />
             </div>
         </div>
         <div className="project flex justify-between mb-40">
-            <div className="first flex flex-col w-[60%] ">
+            <div className="first flex flex-col w-[40%] ">
                 <h1 className='text-xl text-fonts font-bold mb-4'>Melontikos Website</h1>
                 <div className="languages flex justify-between w-[28%] mb-10">
                     <Languages lang  = 'HTML'/>
@@ -44,7 +44,7 @@ function ProjectList() {
                 </div>
             </div>
             <div className="second   flex items-center justify-center w-[30%]">
-                <img className='rounded w-[20rem] h-[12rem]'src={Mellontikos} alt="" />
+                <img className=' proj-img rounded w-[20rem] h-[12rem]'src={Mellontikos} alt="" />
             </div>
         </div>
     </div>

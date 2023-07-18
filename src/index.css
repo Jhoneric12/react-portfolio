@@ -34,10 +34,11 @@ html {
     transform: translate(0, -5px);
     cursor: pointer;
 }
-.langs {
+.langs, .proj-img {
     transition: 0.3s;
 }
-.langs:hover {
+.langs:hover, .proj-img:hover {
     transform: translate(0, -5px);
     cursor: pointer;
 }
+
