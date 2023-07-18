@@ -30,9 +30,9 @@ function About() {
                     <Button btnText = 'Resume'/>
                 </div>
             </div>
-            <div className="second w-[30%]">
+            {/* <div className="second w-[30%]">
                 <img className='my-img w-[20.875rem] h-[20.875rem] border-4 border-secondary' src={Me} alt="" />
-            </div>
+            </div> */}
         </div>
     </div>
   )
