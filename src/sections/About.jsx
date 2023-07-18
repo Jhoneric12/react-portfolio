@@ -8,7 +8,7 @@ import '../index.css'
 
 function About() {
   return (
-    <div className="container h-screen">
+    <div className="container h-screen w-full">
         <SectionTitle title = 'About Me'/>
         <div className="div flex justify-between items-center">
             <div className="first w-[50%]">
@@ -16,7 +16,7 @@ function About() {
                 <p className='text-fonts text-based font-regular leading-7 mb-4'>The name is Jhon Eric Dormido Aton. Currently studying at the University of Rizal System taking Bachelor of Science in Information Technology. </p>
                 <p className='text-fonts text-based font-regular leading-7 mb-10'>I have been coding since I was in senior high school. I’m currently studying front - end developement and hoping to become a full - stack developer.</p>
                 </div>
-                <div className="tech-stack mb-10">
+                <div className="tech-stack mb-10" data-aos="fade-up">
                     <h1 className='text-fonts text-xl font-bold mb-7'>Tech Stack</h1>
                     <div className="lang-logo flex">
                         <LanguagesLogo logo = {<SiReact className='text-fonts w-[2.25rem] h-[2.25rem]'/>}/>
@@ -30,9 +30,9 @@ function About() {
                     <Button btnText = 'Resume'/>
                 </div>
             </div>
-            {/* <div className="second w-[30%]">
+            <div className="second w-[30%]" data-aos="fade-left">
                 <img className='my-img w-[20.875rem] h-[20.875rem] border-4 border-secondary' src={Me} alt="" />
-            </div> */}
+            </div>
         </div>
     </div>
   )

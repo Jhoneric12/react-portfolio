@@ -14,7 +14,7 @@ function ProjectList() {
         <div className="project flex justify-between mb-40">
             <div className="first flex flex-col w-[40%] ">
                 <h1 className='text-xl text-fonts font-bold mb-4'>University of Rizal System Library Management</h1>
-                <div className="languages flex mb-10">
+                <div className="languages flex mb-10 " data-aos="fade-up">
                     <Languages lang = 'CSharp'/>
                     <Languages lang = 'MySql'/>
                 </div>
@@ -25,14 +25,14 @@ function ProjectList() {
                 <a href="https://github.com/Jhoneric12/Library_Management_System" target='blank'><Button btnText = {btnText}/></a>
                 </div>
             </div>
-            <div className="second flex items-center justify-center w-[30%]">
+            <div className="second flex items-center justify-center w-[30%]" data-aos="fade-left">
                 <img className=' proj-img rounded w-[20rem] h-[12rem]'src={URSBLibrary} alt="" />
             </div>
         </div>
         <div className="project flex justify-between mb-40">
             <div className="first flex flex-col w-[40%] ">
                 <h1 className='text-xl text-fonts font-bold mb-4'>Melontikos Website</h1>
-                <div className="languages flex justify-between w-[28%] mb-10">
+                <div className="languages flex justify-between w-[28%] mb-10"  data-aos="fade-up">
                     <Languages lang  = 'HTML'/>
                     <Languages lang  = 'CSS'/>
                     <Languages lang  = 'Javascript'/>
@@ -44,14 +44,14 @@ function ProjectList() {
                     <a href="https://github.com/Jhoneric12/Mellontikos-Website" target='blank'><Button btnText = {btnText}/></a>
                 </div>
             </div>
-            <div className="second   flex items-center justify-center w-[30%]">
+            <div className="second   flex items-center justify-center w-[30%]" data-aos="fade-left">
                 <img className=' proj-img rounded w-[20rem] h-[12rem]'src={Mellontikos} alt="" />
             </div>
         </div>
         <div className="project flex justify-between mb-40">
             <div className="first flex flex-col w-[40%] ">
                 <h1 className='text-xl text-fonts font-bold mb-4'>Netflix Landing Page Clone</h1>
-                <div className="languages flex justify-between w-[28%] mb-10">
+                <div className="languages flex justify-between w-[28%] mb-10"  data-aos="fade-up">
                     <Languages lang  = 'HTML'/>
                     <Languages lang  = 'CSS'/>
                     {/* <Languages lang  = 'Javascript'/> */}
@@ -63,7 +63,7 @@ function ProjectList() {
                     <a href="https://netflixclonejeaton.netlify.app/" target='blank'><Button btnText = {btnText}/></a>
                 </div>
             </div>
-            <div className="second   flex items-center justify-center w-[30%]">
+            <div className="second   flex items-center justify-center w-[30%]" data-aos="fade-left">
                 <img className=' proj-img rounded w-[20rem] h-[12rem]'src={Netflix} alt="" />
             </div>
         </div>
