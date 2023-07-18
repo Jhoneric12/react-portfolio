@@ -3,6 +3,7 @@ import {FaGithub, FaLinkedin, FaFacebook} from 'react-icons/fa'
 import { useTypewriter, Cursor} from 'react-simple-typewriter'
 import Button from '../components/Button'
 import AnchorLink from "react-anchor-link-smooth-scroll"
+import Me from '../assets/Me.jpg'
 
 
 function Hero() {
@@ -13,7 +14,7 @@ function Hero() {
   })
 
   return (
-    <div className='container w-full h-screen flex items-center' id='hero'>
+    <div className='container w-full h-screen flex items-center justify-around'  id='hero'>
       <div className="hero-content">
         <div className='icons flex justify-between w-24 mb-4'>
           <a href="https://github.com/Jhoneric12" target='blank'><FaGithub className='text-fonts w-6 h-6 transition duration-150 hover:opacity-80'/></a>
@@ -29,6 +30,9 @@ function Hero() {
           <AnchorLink href='#projects'><Button btnText='Projects'/> </AnchorLink>
         </div>
       </div>
+      <div className="second " data-aos="fade-left">
+         <img className='my-img w-[18.875rem] h-[18.875rem] border-4 border-secondary rounded-full' src={Me} alt="" />
+       </div>
     </div>
   )
 }

@@ -3,7 +3,7 @@ import SectionTitle from '../components/SectionTitle'
 import LanguagesLogo from '../components/LanguagesLogo'
 import {SiJavascript, SiCsharp, SiCss3, SiReact, SiHtml5} from 'react-icons/si'
 import Button from '../components/Button'
-import Me from '../assets/Me.jpg'
+import AboutMe from '../assets/Firmware-amico.png'
 import '../index.css'
 
 function About() {
@@ -32,7 +32,7 @@ function About() {
                 </div>
             </div>
             <div className="second " data-aos="fade-left">
-                <img className='my-img w-[20.875rem] h-[21.875rem] border-4 border-secondary' src={Me} alt="" />
+                <img className='about-me w-[18.875rem] h-[18.875rem]' src={AboutMe} alt="" />
             </div>
         </div>
     </div>
