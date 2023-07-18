@@ -4,7 +4,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 function Foooter() {
   return (
-    <div className="container w-[full] border-t-2 border-secondary py-4 flex justify-between">
+    <div className="container w-[full] border-t-2 border-secondary py-4 flex justify-between mt-32">
         <div className="logo flex">
             <AnchorLink href='#hero'><h1 className='text-secondary text-lg font-bold hover:text-fonts transition duration-150 cursor-pointer'>JEA.</h1></AnchorLink>
         </div>
