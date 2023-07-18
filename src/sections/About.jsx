@@ -12,7 +12,7 @@ function About() {
         <SectionTitle title = 'About Me'/>
         <div className="div flex justify-around items-center">
             <div className="first w-[40%]">
-                <div className="about-me">
+                <div className="about">
                 <h1 className='text-fonts text-xl font-bold mb-7'>Personal Information</h1>
                 <p className='text-fonts text-based font-regular leading-7 mb-4'>The name is Jhon Eric Dormido Aton. Currently studying at the University of Rizal System taking Bachelor of Science in Information Technology. </p>
                 <p className='text-fonts text-based font-regular leading-7 mb-10'>I have been coding since I was in senior high school. I’m currently studying front - end developement and hoping to become a full - stack developer.</p>
