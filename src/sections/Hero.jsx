@@ -15,7 +15,7 @@ function Hero() {
   return (
     <div className='container w-full h-screen flex items-center' id='hero'>
       <div className="hero-content">
-        <div className='icons flex justify-between w-24 mb-4'>
+        <div className='icons flex justify-between w-24 mb-4 sm:hidden'>
           <a href="https://github.com/Jhoneric12" target='blank'><FaGithub className='text-fonts w-6 h-6 transition duration-150 hover:opacity-80'/></a>
           <a href="https://www.linkedin.com/in/jhon-eric-aton-5535a8245/" target='blank'><FaLinkedin className='text-fonts w-6 h-6 transition duration-150 hover:opacity-80'/></a>
           <a href="https://www.facebook.com/jhoneric.aton" target='blank'><FaFacebook className='text-fonts w-6 h-6 transition duration-150 hover:opacity-80'/></a>

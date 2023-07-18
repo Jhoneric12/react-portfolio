@@ -34,7 +34,7 @@ function ProjectList() {
                 <div className="languages flex justify-between w-[28%] mb-10">
                     <Languages lang  = 'HTML'/>
                     <Languages lang  = 'CSS'/>
-                    <Languages lang  = 'JavascripL'/>
+                    <Languages lang  = 'Javascript'/>
                 </div>
                 <div className="description mb-6 ">
                     <p className='text-fonts text-based font-regular leading-7'>This website is the Mellontikos official website. The mellontikos is a capstone team consists of five students at the University of Rizal System Binangonan..</p>
