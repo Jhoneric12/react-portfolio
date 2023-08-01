@@ -14,16 +14,16 @@ function Hero() {
   })
 
   return (
-    <div className='container w-full h-screen flex items-center justify-around'  id='hero'>
+    <div className='container w-full h-screen flex items-center justify-around md:w-full lg:w-full'  id='hero'>
       <div className="hero-content">
-        <div className='icons flex justify-between w-24 mb-4'>
+        <div className='icons flex justify-between w-24 mb-4 '>
           <a href="https://github.com/Jhoneric12" target='blank'><FaGithub className='text-fonts w-6 h-6 transition duration-150 hover:opacity-80'/></a>
           <a href="https://www.linkedin.com/in/jhon-eric-aton-5535a8245/" target='blank'><FaLinkedin className='text-fonts w-6 h-6 transition duration-150 hover:opacity-80'/></a>
           <a href="https://www.facebook.com/jhoneric.aton" target='blank'><FaFacebook className='text-fonts w-6 h-6 transition duration-150 hover:opacity-80'/></a>
         </div>
         <div className="main-content mb-8">
-          <h1 className=' text-5xl text-fonts font-extrabold mb-4'>I'm Jhon Eric Aton</h1>
-          <h4 className=' text-based text-fonts font-medium text-lg' >Aspiring <span className='text-secondary font-extrabold text-based
+          <h1 className=' text-5xl text-fonts font-extrabold mb-4'>Jhon Eric Aton</h1>
+          <h4 className=' text-based text-fonts font-medium text-lg' >An aspiring <span className='text-secondary font-extrabold text-based
           '>{text}<Cursor cursorColor='#DDE6ED'/></span></h4>
         </div>
         <div className="btn">

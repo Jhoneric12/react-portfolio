@@ -12,7 +12,7 @@ function ProjectList() {
   return (
     <div className="container">
         <div className="project mb-40 flex justify-around">
-            <div className="first flex flex-col w-[40%]">
+            <div className="first flex flex-col w-[40%] md:w-[40%] lg:w-[40%]">
                 <h1 className='text-xl text-fonts font-bold mb-4'>University of Rizal System Library Management</h1>
                 <div className="languages flex mb-10 " data-aos="fade-up">
                     <Languages lang = 'CSharp'/>
@@ -30,7 +30,7 @@ function ProjectList() {
             </div>
         </div>
         <div className="project mb-40 flex justify-around">
-            <div className="first flex flex-col w-[40%]">
+            <div className="first flex flex-col w-[40%] md:w-[40%] lg:w-[40%]">
                 <h1 className='text-xl text-fonts font-bold mb-4'>Mellotikos Website</h1>
                 <div className="languages flex mb-10 " data-aos="fade-up">
                     <Languages lang = 'HTML'/>
@@ -49,7 +49,7 @@ function ProjectList() {
             </div>
         </div>
         <div className="project mb-40 flex justify-around">
-            <div className="first flex flex-col w-[40%]">
+            <div className="first flex flex-col w-[40%] md:w-[40%] lg:w-[40%]">
                 <h1 className='text-xl text-fonts font-bold mb-4'>Netflix Landing Page</h1>
                 <div className="languages flex mb-10 " data-aos="fade-up">
                     <Languages lang = 'HTML'/>
